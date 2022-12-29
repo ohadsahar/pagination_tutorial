@@ -2,7 +2,7 @@
 
 import { Pagination } from './Pagination';
 import { PostsList } from './PostsList';
-import { usePagination } from './usePagination';
+import { usePagination } from './hooks/usePagination';
 
 export interface PostProps {
   posts: Props[];

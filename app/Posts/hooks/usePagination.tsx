@@ -1,6 +1,7 @@
 import { useState } from 'react';
+import { Props } from '..';
 
-export const usePagination = (posts: any) => {
+export const usePagination = (posts: Props[]) => {
   const pageNumbers: number[] = [];
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
