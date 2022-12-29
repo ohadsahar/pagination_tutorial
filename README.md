@@ -1,4 +1,4 @@
-# Meta Messenger Clone
+# Pagination Tutorial
 
 ## React + Next.js 13 + Tailwind CSS
 
